@@ -1,0 +1,386 @@
+   <!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Secundaria Tecnica No. 4</title>
+
+<style>
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family: Arial, sans-serif;
+
+}
+
+body{
+
+    background:#f4f4f4;
+
+    color:#333;
+
+}
+
+header{
+
+    background:#0d3b66;
+
+    color:white;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+nav{
+
+    margin-top:15px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:0 15px;
+
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:#ffd166;
+
+}
+
+.hero{
+
+    background:url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200') no-repeat center center/cover;
+
+    height:400px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+    background:rgba(0,0,0,0.5);
+
+    padding:20px;
+
+    border-radius:10px;
+
+}
+
+section{
+
+    padding:50px 20px;
+
+}
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+h2{
+
+    color:#0d3b66;
+
+    margin-bottom:20px;
+
+}
+
+.cards{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+
+    flex:1;
+
+}
+
+.galeria{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:15px;
+
+}
+
+.galeria img{
+
+    width:100%;
+
+    border-radius:10px;
+
+}
+
+footer{
+
+    background:#0d3b66;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+form input,
+
+form textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+}
+
+form button{
+
+    background:#0d3b66;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+form button:hover{
+
+    background:#145da0;
+
+}
+
+.galeria1 {
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>BIENVENIDOS</h1>
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#nosotros">Nosotros</a>
+
+        <a href="#oferta">Oferta Educativa</a>
+
+        <a href="#galeria">Galeria</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+</header>
+
+<section class="hero" id="inicio">
+
+    <h1>Escuela secundaria tecnica 
+	tierra y libertad N°4</h1>
+
+</section>
+
+<section id="nosotros">
+
+    <div class="container">
+
+        <h2>Nosotros</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Historia</h3>
+
+                <p>
+
+                La Escuela Secundaria Tecnica No. 4 ubicada en Kantunilkin,
+
+                Quintana Roo, brinda educacion de calidad a los jovenes,
+
+                fomentando valores, disciplina y conocimientos tecnologicos.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Mision</h3>
+
+                <p>
+
+                Formar estudiantes responsables, preparados academicamente
+
+                y comprometidos con su comunidad.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Vision</h3>
+
+                <p>
+
+                Ser una institucion reconocida por su excelencia educativa
+
+                y formacion integral.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="oferta">
+
+    <div class="container">
+
+        <h2>Oferta Educativa</h2>
+
+        <ul>
+
+            <li>Educacion secundaria tecnica</li>
+
+            <li>Talleres tecnologicos</li>
+
+            <li>Actividades deportivas</li>
+
+            <li>Eventos culturales</li>
+
+            <li>Biblioteca y sala de computo</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<section id="galeria">
+
+    <div class="container">
+
+        <h2>Galeria</h2>
+
+        <div class="galeria"><span class="galeria1"><img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800" alt="Escuela"></span><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800" alt="Alumnos">
+
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800" alt="Biblioteca">
+
+            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=800" alt="Computadoras">        </div>
+
+    </div>
+
+</section>
+
+<section id="contacto">
+
+    <div class="container">
+
+        <h2>Contacto</h2>
+
+        <p><strong>Direccion:</strong> Kantunilkin, Quintana Roo</p>
+
+        <p><strong>Telofono:</strong> 984 320 7257</p>
+
+        <p><strong>Correo:</strong> tecnica4@gmail.com</p>
+
+        <br>
+
+        <form>
+
+            <input type="text" placeholder="Tu nombre">
+
+            <input type="email" placeholder="Tu correo">
+
+            <textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+
+    JENNYFER INGRID KOH AKE Y TANIA GUADULUPE MAY MAC
